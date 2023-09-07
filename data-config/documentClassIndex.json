@@ -1,0 +1,351 @@
+{
+  "MainPage": {
+    "type": "main_page",
+    "label": "Main Page",
+    "defaultTitle": "Home",
+    "defaultSlug": "home",
+    "description": "The main page, often called the \"homepage,\" is the entry point and central hub of a website. It provides an overview of the site's purpose, features key content and sections, and offers intuitive navigation.",
+    "imageName": "",
+    "documentAreas": {
+      "metaData": {
+        "indexNumber": 0,
+        "label": "Meta Data",
+        "blocks": {
+          "basicSeoDataBlock": {
+            "label": "SEO Data Block",
+            "description": "Meta data fields for SEO are crucial elements of a webpage that help search engines understand the content and context of your page. They're not visible to users on the webpage itself, but they're used in search engine results.",
+            "imageName": "meta_data_block.webp",
+            "components": {
+              "metaDataFields": {
+                "indexNumber": 0,
+                "label": "Meta Data Fields",
+                "helpText": "Meta data fields for SEO are crucial elements of a webpage that help search engines understand the content and context of your page. They're not visible to users on the webpage itself, but they're used in search engine results.",
+                "imageName": "",
+                "props": {
+                  "description": {
+                    "indexNumber": 0,
+                    "label": "Description",
+                    "type": "StringValue",
+                    "isRequired": true,
+                    "fieldContent": {}
+                  },
+                  "robots": {
+                    "indexNumber": 0,
+                    "label": "Robots",
+                    "type": "StringValue",
+                    "fieldContent": {
+                      "value": "index,follow"
+                    },
+                    "fieldContentVariants": [
+                      {
+                        "label": "Allow indexing and following links",
+                        "fieldContent": {
+                          "value": "index,follow"
+                        }
+                      },
+                      {
+                        "label": "Prevent indexing and following links",
+                        "fieldContent": {
+                          "value": "noindex,nofollow"
+                        }
+                      },
+                      {
+                        "label": "Allow indexing but prevent following links",
+                        "fieldContent": {
+                          "value": "index,nofollow"
+                        }
+                      },
+                      {
+                        "label": "Prevent indexing but allow following links",
+                        "fieldContent": {
+                          "value": "noindex,follow"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "body": {
+        "indexNumber": 1,
+        "label": "Body",
+        "blocks": {
+          "mainPageHeroBlock": {
+            "label": "Hero Block",
+            "description": "A sample of the hero block for main page",
+            "imageName": "hero_block.webp",
+            "components": {
+              "heroTitle": {
+                "label": "Hero Title",
+                "helpText": "",
+                "indexNumber": 0,
+                "props": {
+                  "text": {
+                    "indexNumber": 0,
+                    "type": "HeaderText",
+                    "fieldContent": {
+                      "htmlText": "<h1>Welcome...</h1>"
+                    }
+                  }
+                }
+              },
+              "heroImage": {
+                "indexNumber": 2,
+                "label": "Hero Image",
+                "props": {
+                  "image": {
+                    "indexNumber": 0,
+                    "type": "Image",
+                    "fieldContent": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "SamplePage": {
+    "type": "page",
+    "label": "Sample Page",
+    "defaultTitle": "Sample",
+    "defaultSlug": "sample",
+    "description": "A sample page",
+    "imageName": "sample_page.webp",
+    "documentAreas": {
+      "metaData": {
+        "indexNumber": 0,
+        "label": "Meta Data",
+        "blocks": {
+          "basicSeoDataBlock": {
+            "label": "SEO Data Block",
+            "description": "Meta data fields for SEO are crucial elements of a webpage that help search engines understand the content and context of your page. They're not visible to users on the webpage itself, but they're used in search engine results.",
+            "imageName": "meta_data_block.webp",
+            "components": {
+              "metaDataFields": {
+                "indexNumber": 0,
+                "label": "Meta Data Fields",
+                "helpText": "Meta data fields for SEO are crucial elements of a webpage that help search engines understand the content and context of your page. They're not visible to users on the webpage itself, but they're used in search engine results.",
+                "imageName": "",
+                "props": {
+                  "description": {
+                    "indexNumber": 0,
+                    "label": "Description",
+                    "type": "StringValue",
+                    "isRequired": true,
+                    "fieldContent": {}
+                  },
+                  "robots": {
+                    "indexNumber": 0,
+                    "label": "Robots",
+                    "type": "StringValue",
+                    "fieldContent": {
+                      "value": "index,follow"
+                    },
+                    "fieldContentVariants": [
+                      {
+                        "label": "Allow indexing and following links",
+                        "fieldContent": {
+                          "value": "index,follow"
+                        }
+                      },
+                      {
+                        "label": "Prevent indexing and following links",
+                        "fieldContent": {
+                          "value": "noindex,nofollow"
+                        }
+                      },
+                      {
+                        "label": "Allow indexing but prevent following links",
+                        "fieldContent": {
+                          "value": "index,nofollow"
+                        }
+                      },
+                      {
+                        "label": "Prevent indexing but allow following links",
+                        "fieldContent": {
+                          "value": "noindex,follow"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "body": {
+        "indexNumber": 1,
+        "label": "Body",
+        "blocks": {
+          "sampleBlock": {
+            "label": "Sample Block With Single Component",
+            "description": "This block consists of a single component, encompassing all available properties in the CMS.",
+            "imageName": "sample_block.webp",
+            "components": {
+              "sampleComponent": {
+                "indexNumber": 0,
+                "helpText": "This block consists of a single component, encompassing all available properties in the CMS. While this block includes a single component, it's not limited to one. Blocks can house multiple components. The interplay of numerous components and their respective properties allows for the creation of diverse web page content.",
+                "label": "Component With All Props",
+                "props": {
+                  "heading": {
+                    "indexNumber": 0,
+                    "type": "HeaderText",
+                    "label": "Header Text Property",
+                    "fieldContent": {
+                      "htmlText": "<h1>Type some heading...</h1>"
+                    }
+                  },
+                  "paragraph": {
+                    "indexNumber": 1,
+                    "type": "ParagraphText",
+                    "label": "Paragraph Text Property",
+                    "fieldContent": {
+                      "htmlText": "<p>Type some text...</p>"
+                    }
+                  },
+                  "image": {
+                    "indexNumber": 2,
+                    "type": "Image",
+                    "label": "Image Property",
+                    "isRequired": true,
+                    "fieldContent": {}
+                  },
+                  "documentsList": {
+                    "indexNumber": 3,
+                    "type": "DocumentsList",
+                    "label": "Documents List Property",
+                    "isRequired": true,
+                    "fieldContent": {
+                      "selectionMode": "selectDocuments"
+                    },
+                    "fieldContentVariants": [
+                      {
+                        "label": "Select Documents By One",
+                        "fieldContent": {
+                          "selectionMode": "selectDocuments"
+                        }
+                      },
+                      {
+                        "label": "Select Documents By Parent",
+                        "fieldContent": {
+                          "selectionMode": "selectChildrenDocuments"
+                        }
+                      }
+                    ]
+                  },
+                  "icon": {
+                    "indexNumber": 4,
+                    "label": "Icon Property",
+                    "type": "Icon",
+                    "isRequired": true,
+                    "fieldContent": {
+                      "iconName": "key"
+                    },
+                    "fieldContentVariants": [
+                      {
+                        "label": "Key Icon",
+                        "fieldContent": {
+                          "iconName": "key"
+                        }
+                      },
+                      {
+                        "label": "Trash Icon",
+                        "fieldContent": {
+                          "iconName": "trash"
+                        }
+                      }
+                    ]
+                  },
+                  "stringValue": {
+                    "indexNumber": 5,
+                    "type": "StringValue",
+                    "label": "String Value Property",
+                    "isRequired": true,
+                    "fieldContent": {
+                      "value": "Arbitrary string value"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "Site": {
+    "type": "site",
+    "label": "Site",
+    "description": "Global site content refers to elements consistently applied to each page on a website, ensuring a cohesive browsing experience. This may include headers, footers, navigation menus, logos, and contact information, which provide uniformity and easy access to essential resources.",
+    "documentAreas": {
+      "mainNavigation": {
+        "indexNumber": 0,
+        "label": "Main Navigation",
+        "blocks": {
+          "siteLogoBlock": {
+            "label": "Site Logo Block",
+            "description": "The logo elements in the main menu of a website serve as key branding components that represent the website's identity.",
+            "imageName": "logo.webp",
+            "components": {
+              "logoImage": {
+                "indexNumber": 0,
+                "label": "Logo Image",
+                "helpText": "The logo is a distinctive graphic symbol or design, while the logo title is the accompanying text, usually the website or company name.",
+                "imageName": "",
+                "props": {
+                  "image": {
+                    "indexNumber": 0,
+                    "type": "Image",
+                    "isRequired": true,
+                    "fieldContent": {}
+                  }
+                }
+              },
+              "logoTitle": {
+                "indexNumber": 1,
+                "label": "Logo Title",
+                "helpText": "A logo title element in the main menu of a website is the textual representation of the website or company name, positioned alongside or near the logo.",
+                "imageName": "menu-logo-block.webp",
+                "props": {
+                  "text": {
+                    "indexNumber": 0,
+                    "type": "StringValue",
+                    "isRequired": true,
+                    "fieldContent": {}
+                  }
+                }
+              }
+            }
+          },
+          "navigationMenuBlock": {
+            "label": "Navigation Menu Block",
+            "description": "A structured menu of hyperlinks connecting key pages of this website.",
+            "components": {
+              "navigationMenu": {
+                "indexNumber": 0,
+                "label": "Navigation Menu Links",
+                "helpText": "A structured menu of hyperlinks connecting key pages of this website.",
+                "props": {
+                  "documentsList": {
+                    "indexNumber": 0,
+                    "type": "DocumentsList",
+                    "isRequired": true,
+                    "fieldContent": {
+                      "selectionMode": "selectDocuments"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

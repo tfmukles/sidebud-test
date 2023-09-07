@@ -1,0 +1,100 @@
+{
+  "id": "main_page",
+  "type": "main_page",
+  "documentClass": "MainPage",
+  "contents": {
+    "en-US": {
+      "title": "Home",
+      "slug": "home",
+      "isCustomSlug": true,
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "lSwB4FCrtC1cyFcDvCSve",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "8b6hrBqAB-jbVaO8lytLh",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Starter Website Template for SiteBud CMS"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "blocks": [
+            {
+              "id": "VnsyaAXWCaXA6Az6Uz8k2",
+              "name": "mainPageHeroBlock",
+              "components": [
+                {
+                  "name": "heroTitle",
+                  "instances": [
+                    {
+                      "id": "hHMAIC8uXjT4mbu_1K4Xr",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1 style=\"text-align: center\">Begin your development with the SiteBud CMS starter template.</h1>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "heroImage",
+                  "instances": [
+                    {
+                      "id": "89CGe44AYFQ76LG7v9eH5",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "src": "/_assets/images/logo.png",
+                            "alt": "SiteBud CMS Logo"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "includeInSiteMap": true,
+      "dateUpdated": 1684702992845,
+      "authors": {
+        "apustovalov@gmail.com": 1684702992845
+      }
+    }
+  }
+}

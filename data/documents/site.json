@@ -1,0 +1,97 @@
+{
+  "id": "site",
+  "type": "site",
+  "documentClass": "Site",
+  "contents": {
+    "en-US": {
+      "title": "Site",
+      "slug": "@site",
+      "isCustomSlug": true,
+      "documentAreas": [
+        {
+          "name": "mainNavigation",
+          "blocks": [
+            {
+              "id": "MHXftXLFsaIsnjhNj4qmR",
+              "name": "siteLogoBlock",
+              "components": [
+                {
+                  "name": "logoImage",
+                  "instances": [
+                    {
+                      "id": "9A_FNo4aEM40ePxdySfiV",
+                      "props": [
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "src": "/_assets/images/logo.png",
+                            "alt": "SiteBud CMS Logo"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "logoTitle",
+                  "instances": [
+                    {
+                      "id": "wMECfS3Hz4xTHBmAHjWwk",
+                      "props": [
+                        {
+                          "name": "text",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "Starter"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "NUna1xuVRoETeW2zBECWl",
+              "name": "navigationMenuBlock",
+              "components": [
+                {
+                  "name": "navigationMenu",
+                  "instances": [
+                    {
+                      "id": "lYvuSqG-R48COqwarB63J",
+                      "props": [
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectDocuments",
+                            "isRequired": true,
+                            "documentsIds": [
+                              "main_page",
+                              "13VzAMo9S3GGh6lbxZESS"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684702969773,
+      "authors": {
+        "apustovalov@gmail.com": 1684702969773
+      },
+      "dataFields": [],
+      "statusMap": {},
+      "tags": {}
+    }
+  }
+}

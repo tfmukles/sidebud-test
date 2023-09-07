@@ -1,0 +1,130 @@
+{
+  "id": "13VzAMo9S3GGh6lbxZESS",
+  "type": "page",
+  "documentClass": "SamplePage",
+  "contents": {
+    "en-US": {
+      "title": "Sample",
+      "slug": "sample",
+      "includeInSiteMap": true,
+      "statusMap": {},
+      "isCustomSlug": true,
+      "tags": {},
+      "dataFields": [],
+      "documentAreas": [
+        {
+          "name": "metaData",
+          "blocks": [
+            {
+              "id": "3uphA8fgZTBgCcb9sQD9b",
+              "name": "basicSeoDataBlock",
+              "components": [
+                {
+                  "name": "metaDataFields",
+                  "instances": [
+                    {
+                      "id": "6G3zOM3TV0JhNJJbFVOlY",
+                      "props": [
+                        {
+                          "name": "description",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "value": "Sample Page"
+                          }
+                        },
+                        {
+                          "name": "robots",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "index,follow"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "body",
+          "blocks": [
+            {
+              "id": "SFnHUKcfxgLMHjJJNm4Fx",
+              "name": "sampleBlock",
+              "components": [
+                {
+                  "name": "sampleComponent",
+                  "instances": [
+                    {
+                      "id": "vPW2vnlyDtCBqB5IO6Fz9",
+                      "props": [
+                        {
+                          "name": "heading",
+                          "type": "HeaderText",
+                          "fieldContent": {
+                            "htmlText": "<h1>Type some heading...</h1>"
+                          }
+                        },
+                        {
+                          "name": "paragraph",
+                          "type": "ParagraphText",
+                          "fieldContent": {
+                            "htmlText": "<h4>The list of available properties in components:</h4><ul><li><p><code>HeaderText</code> - a heading text before paragraph</p></li><li><p><code>ParagraphText</code> - a paragraph of text</p></li><li><p><code>Image</code> - an image</p></li><li><p><code>DocumentsList</code> - a list of links to the documents within the site content</p></li><li><p><code>StringValue</code> - an arbitrary string value</p></li><li><p><code>Icon</code> - an icon name with icon thumbnail</p></li></ul><blockquote><p>Refer to the <a href=\"https://some.com\">documentation</a> for further details.</p></blockquote>"
+                          }
+                        },
+                        {
+                          "name": "image",
+                          "type": "Image",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "src": "/_assets/images/logo.png",
+                            "alt": "SiteBud CMS Logo"
+                          }
+                        },
+                        {
+                          "name": "documentsList",
+                          "type": "DocumentsList",
+                          "fieldContent": {
+                            "selectionMode": "selectDocuments",
+                            "isRequired": true,
+                            "documentsIds": [
+                              "main_page",
+                              "13VzAMo9S3GGh6lbxZESS"
+                            ]
+                          }
+                        },
+                        {
+                          "name": "icon",
+                          "type": "Icon",
+                          "fieldContent": {
+                            "isRequired": true,
+                            "iconName": "key"
+                          }
+                        },
+                        {
+                          "name": "stringValue",
+                          "type": "StringValue",
+                          "fieldContent": {
+                            "value": "Arbitrary string value",
+                            "isRequired": true
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dateUpdated": 1684665778219,
+      "authors": {
+        "apustovalov@gmail.com": 1684665778219
+      }
+    }
+  }
+}
